@@ -34,16 +34,21 @@ margin: 0;
 padding: 0;
 background-color: rgb(255, 255, 255);
 
-
-
-position: relative;
-
 }
 
 
 
+.move-r {
+  position: relative;
+  top: -880px;
+  left: 35%;
+}
+
+
+
+
 html, body {
-    width: 100%;
+  width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -92,7 +97,7 @@ a:hover {
 
 position: relative;
 right: 10%;
-top: -5px;
+top: 10px;
 }
 
 .bnr {
@@ -118,9 +123,9 @@ top: 7px;
     width: 120px;
     height: 37px;
     position: relative;
-    top: 60px;
-    right: 9.5%;
-    border-radius: 5px ;
+    top:40px;
+    right: 35%;
+    border-radius: 5px;
     font-size: 16px;
     text-align: center;
     font-family: Poppins,sans-serif;
@@ -133,7 +138,7 @@ top: 7px;
     top: 9.8px;
     text-align: center;
     color: #212140;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     font-weight: 700;
     line-height: 74.78px;
     margin-bottom: 24px;
@@ -141,18 +146,106 @@ top: 7px;
   }
 
 
-  
+  .color {
+    background-color: rgba(0,0,0,.03);
+  }
+
+
+.accordion * {
+  width: 510px;
+
+
+}
+
+
+
+#headingThree .accordion-button{
+  color: black !important;
+  border: 1px solid rgba(0, 0, 0, .125) !important;
+  border-radius:5px;
+  text-decoration: none;
+  padding: 11px;
+  font-family: Poppins,sans-serif;
+  font-weight: 500;
+  background-color: rgba(221, 219, 219, 0.3);
+} 
+
+
+
+
+
+
+#headingTwo .accordion-button{
+  color: black !important;
+  border: 1px solid rgba(0, 0, 0, .125) !important;
+  border-radius:5px;
+  padding:10px;
+  font-family: Poppins,sans-serif;
+  font-weight: 500;
+  background-color: rgba(221, 219, 219, 0.3);
+} 
+
+#headingOne  .accordion-button{
+  color: black !important;
+  border: 1px solid rgba(0, 0, 0, .125) !important;
+  border-radius:5px;
+  padding:10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  background-color: rgba(221, 219, 219, 0.3) !important;
+} 
+
+
+
+#headingFour .accordion-button{
+  color: black !important;
+  border: 1px solid rgba(0, 0, 0, .125) !important;
+  border-radius:5px;
+  padding: 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  background-color: rgba(221, 219, 219, 0.3);
+} 
+
+/* Custom CSS to remove blue background color on accordion button click */
+
+
+/* Custom CSS to remove the blue background color on accordion button click */
+.accordion-button:not(.collapsed) {
+  border: none !important;
+  background-color: rgba(221, 219, 219, 0.3);
+}
+
+/* Custom CSS to remove blue outline on accordion button focus */
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.accordion-button h1 {
+  font-size: 18px;
+}
+
+
 
 
 .font {
-font-size: 19px;
+  color: black;
+  text-decoration: none;
+font-size: 18px;
 font-weight: 600;
 }
 
 
 .b-p {
     position: relative;
-    top: -12px;
+    top: 5px;
+}
+
+
+.p {
+  font-family: Poppins,sans-serif;
+  font-size: 16px;
+  
 }
 
 
@@ -166,7 +259,7 @@ font-weight: 600;
     }
   
     to {
-      transform: translateY(180%);
+      transform: translateY(192%);
     
   
   
@@ -184,17 +277,17 @@ font-weight: 600;
 
 
   .img {
-    max-width: 22%;
+    max-width: 39%;
     position: relative;
-    left: 63.5%;
-    top: -110px;
+    left: 42%;
+    top: 80px;
   }
 
   .dots {
     max-width: 100%;
     height: auto;
     position: absolute;
-    left: 30%;
+    left: 36%;
     }
 
 
@@ -223,7 +316,416 @@ font-weight: 600;
 
 .h1-move {
     position: relative;
-    left: 12%;
+    left: 25%;
     top: 50px;
 }
 
+.accordion {
+  position: relative;
+  top: 10px;
+  left: 5%;
+
+}
+
+
+footer {
+  background-color: rgb(16, 35, 50);
+  padding: 36px 0px;
+  margin: 0;
+  overflow: hidden;
+  height: 450px;
+  font-size: 27px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0px;
+}
+
+
+.section-footer {
+  position: relative;
+  top: -400px;
+  left: 27%;
+}
+
+
+.header-style4 {
+  margin-top: -35px;
+  font-size: 27px;
+  font-weight: 600;
+  color: white;
+}
+
+
+
+.header-style3 {
+  font-size: 33px;
+  font-weight: 700;
+  color: white;
+}
+
+.Erp {
+  position: relative;
+  right: 35%;
+  top: -270px;
+}
+
+
+.right-col {
+  position: relative;
+  right: 5%
+  ;
+}
+
+.conatiner-style {
+  color: white;
+  
+
+}
+
+
+
+.right-col {
+position: relative;
+right: 5%
+;
+}
+
+.CRM:hover {
+color: orange;
+}
+
+
+.link-style {
+font-size: 16px;
+color: white;
+display: block;
+}
+
+
+.margin {
+margin-top: -94px;
+
+}
+
+
+.margin2 {
+
+margin-top: -45px;
+}
+
+.margin3 {
+margin-top:-30px;
+
+}
+
+
+.margin4 {
+margin-top: -47px;
+
+}
+
+
+.margin5 {
+margin-top: 20px;
+
+}
+
+
+.margin6 {
+margin-top: -46px;
+
+}
+
+
+.margin7 {
+margin-top: -15px;
+
+}
+.Erp {
+position: relative;
+right: 35%;
+top: -270px;
+}
+
+
+
+.margin8 {
+margin-top: -45px;
+
+}
+
+
+ 
+.margin9 {
+position: relative;
+right: 35%;
+top: -300px;
+}
+
+
+.margin10 {
+position: relative;
+right: 35%;
+top: -347px;
+}
+
+
+
+.margin11 {
+position: relative;
+right: 35%;
+top: -395px;
+}
+
+
+
+.margin12 {
+position: relative;
+right: 35%;
+top: -445px;
+}
+
+
+
+.margin13 {
+position: relative;
+right: 35%;
+top: -490px;
+}
+
+
+
+
+
+.margin14 {
+position: relative;
+right: 35%;
+top: -535px;
+}
+
+
+
+
+
+.margin15 {
+position: relative;
+right: 35%;
+top: -577px;
+}
+
+
+
+
+
+.margin16 {
+position: relative;
+
+top: -910px;
+left: 35%;
+}
+
+
+.margin17 {
+position: relative;
+
+top: -955px;
+left: 35%;
+}
+
+
+tinym {
+  margin-top: 10px;
+  }
+     
+   
+  
+  
+  
+  .links {
+      color: white;
+      font-size: 16px;
+    }
+    
+    
+    
+    .CRM {
+      font-size: 24px;
+      font-weight: 600;
+    
+    }
+    
+    
+    
+    .blue-bnr {
+      position: relative;
+      right: 8.5%;
+      top: -5px;
+    }
+    
+    
+    .footer-p {
+      font-size: 12px;
+      position: relative;
+      right: 5.5%;
+      color: white;
+    }
+    
+    .email-style {
+      position: relative;
+      top: 20px;
+      right: 6%;
+      border: none;
+      border-radius: 30px;
+      background-color :rgb(217,220,255);
+      width: 35%;
+      height: 50px;
+    }
+    
+    
+    .email-style::placeholder {
+      position: relative;
+      top: -5px;
+      left: 5%;
+      font-size: 15px;
+    }
+    .Crm {
+      position: relative;
+      right: 40%;
+      top: 80px;
+     
+    }
+    
+  
+    .p-style4 {
+      font-size: 16px;
+      color: white;
+      position: relative;
+      right: 5%;
+      top: -30px;
+    }
+    
+    
+  
+    .header-style4 {
+      margin-top: -35px;
+      font-size: 27px;
+      font-weight: 600;
+      color: white;
+    }
+    
+    
+    
+    .header-style3 {
+      font-size: 33px;
+      font-weight: 700;
+      color: white;
+    }  
+  
+  
+    .Erp {
+    position: relative;
+    right: 35%;
+    top: -270px;
+  }
+  
+  .link-style {
+      color: #ffffff;
+      text-decoration: none;
+      background-color: transparent;
+  
+  }
+  
+  .link-style:hover {
+      color: darkorange;
+      background-color: transparent;
+  }
+  
+
+
+.margin18 {
+position: relative;
+
+top: -997px;
+left: 35%;
+}
+
+
+.a {
+position: relative;
+top: -47px;
+
+}
+
+.h1-font {
+  font-family: Poppins ,sans-serif;
+  font-size: 35px;
+  font-family: 00;
+}
+
+
+.div {
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  position: relative;
+  left: 55%;
+  top: -300px;
+  width: 600px;
+
+}
+
+div {
+  display: block;
+}
+
+
+.input-s {
+  border: 1px solid #adceff;
+  border-radius: 5px;
+  padding: 10px 12px;
+  background-color: #f2f4f5;
+  font-family: Poppins, sans-serif;
+  height: 50px;
+  width: 440px;
+  
+  }
+
+  .input-B {
+    border: 1px solid #adceff;
+    border-radius: 5px;
+    padding: 10px 12px;
+    background-color: #f2f4f5;
+    font-family: Poppins, sans-serif;
+    height: 150px;
+    width: 100%;
+    
+    }
+
+    .input-B::placeholder {
+      position: relative;
+      top: -50px;
+
+    }
+
+
+
+.button-style2 {
+  background-color: #1B1B3D;
+  color: white;
+  width: 120px;
+  height: 50px;
+  width: 200px;
+
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  font-family: Poppins,sans-serif;
+  font-weight: 500;
+}
+
+
+
+.b-p2 {
+  position: relative;
+  right: 90%;
+  top: 7px;
+}
